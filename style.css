@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Neonderthaw', cursive;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.sign-up {
+    padding: 1px 6px;
+    flex-grow: 0;
+}
+
+/* header designs */
+
+.header {
+    /* fix header to the top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header title */
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 16px;
+    margin-left: 300px;
+}
+
+/* link styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px;
+  }
+
+.links {
+    display: flex;
+    gap: 32px;
+    /* moving links to right side */
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+/* contents */
+
+/* banner one */
+
+.banner-one {
+    display: flex;
+    padding: 16px;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 32px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.texts {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.banner-one-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-one-subtext {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/* banner two */
+
+.banner-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.banner-two-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sets {
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+/* banner-three */
+
+.banner-three {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.quote {
+    font-size: 30px;
+}
+
+/* banner-four */
+
+.banner-four {
+    display: flex;
+    height: 200px;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 32px;
+    margin-bottom: 60px;
+}
+
+.banner-four-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-four-text {
+    font-size: 20px;
+}
+
+/* footer designs */
+
+.footer {
+    /* fix footer to the bottom */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
